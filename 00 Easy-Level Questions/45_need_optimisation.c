@@ -9,7 +9,7 @@
 int main(){
 
 int i,j,k;
-char input[] = "I love jenilsavalia in JavaScript ";
+char input[] = "I love jenilsavaliab JavaScript aaaaaaaaaaaaaaaaaaaaa ";
 int itt = 0;
 int arr[4];
 

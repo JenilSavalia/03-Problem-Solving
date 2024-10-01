@@ -20,22 +20,21 @@ int len  = sizeof(arr)/sizeof(arr[0]);
 
 for(i=0;i<len;i++){
 
-for(j=i+1;j<len;j++){
-	
-	if(arr[j]==1){
-		count++;
-	}
-	else{
-		printf("%d\n",count);
-		count=0;
-	}
+if(arr[i]==1){
+	count++;
+}
+
+if(arr[i]!=1){
+	printf("%d\n",count);
+	count=0;
+}
 
 
 }
 
 }
 
-}
+
 
 
 
