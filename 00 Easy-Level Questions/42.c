@@ -17,7 +17,7 @@
 int main(){
 //[start, end]
 int event1[] = {1, 5};
-int event2[] = {2, 3};
+int event2[] = {5,10};
 
 int i;
 if(event2[0]>=event1[1] && event2[1]>event2[0]){
