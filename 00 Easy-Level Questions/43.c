@@ -11,27 +11,29 @@
 
 int main(){
 	
-int i,j;
+int i;
 
 int count = 0;
-char arr[] = {1, 1, 0, 1, 1, 1};
+int arr[] = {1, 1, 0, 1, 1,0, 1};
+int max_count = 0;
 
 int len  = sizeof(arr)/sizeof(arr[0]);
 
 for(i=0;i<len;i++){
 
-if(arr[i]==1){
+    if(arr[i]==1){
 	count++;
+    }
+    else{
+    count=0;	
+	}
+
+    if(count>max_count){
+	max_count=count;
+    }
+
 }
-
-if(arr[i]!=1){
-	printf("%d\n",count);
-	count=0;
-}
-
-
-}
-
+printf("%d",max_count);
 }
 
 

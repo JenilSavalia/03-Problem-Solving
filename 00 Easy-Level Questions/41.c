@@ -8,17 +8,20 @@
 
 int main(){
 	
-int i,j;
-char adress[] = "1.1.1.1";
+int i,j=0;
+char adress[] = "255.100.50.0";
+
+
 
 for(i=0;i<strlen(adress);i++){
-	if(adress[i]=='.'){
-
-    
+	
+	if(adress[i] != '.'){
+	 printf("%c",adress[i]);
+	}
+	else{
+		printf("[.]");
 	}
 }
-printf("%s",adress);
-
 
 
 }
