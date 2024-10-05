@@ -9,9 +9,9 @@
 int main(){
 
 int i,j,k;
-char input[] = "I love jenilsavaliab JavaScript aaaaaaaaaaaaaaaaaaaaa ";
+char input[] = "I love jenilsavaliab JavaScript j ";
 int itt = 0;
-int arr[4];
+char arr[4];
 
 
 for(i=0;i<strlen(input);i++){

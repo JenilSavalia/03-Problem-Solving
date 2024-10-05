@@ -11,7 +11,7 @@
 
 int main(){
 
-char input[] = "abcdef";
+char input[] = "abccdeff";
 int i,j,k;
 bool check = false;
 for(i=0;i<strlen(input);i++){
